@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="con">
+        <nav class="navbar">
+            <img class="logo" src="./assets/logo1.png" alt="logo">
+            <ul>
+                <li><a class="active" href="#home">HOME</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#about">ABOUT</a></li>
+
+                <li class="action-btns">
+                    <button class="btn">LOGIN</button>
+                    <button class="btn">SIGN UP</button>
+                </li>
+            </ul>
+        </nav>
+        <div class="con1">
+            <video autoplay muted loop id="myVideo">
+                <source src="./assets/wall_video2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </header>
+    <main id="home">
+        <div class="home">
+            <!-- <h1>Welcome To My Site</h1> -->
+        </div>
+
+    </main>
+    <section id="about">
+        <div class="about-left">
+            <h2>ABOUT US</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error velit nostrum, ea dolor vel consequuntur
+                suscipit ipsa autem itaque eum sequi, corporis quas architecto esse hic consequatur tenetur iusto
+                magnam, cum libero officia provident animi quibusdam tempora similique magni? Similique iusto cupiditate
+                quam asperiores tempora commodi veniam aliquid sed veritatis ab ipsa doloremque atque ipsum temporibus
+                ratione ex adipisci sit mollitia odio tempore sapiente sunt fuga, qui nam! Aut, numquam est! Laborum.
+            </p>
+
+            <div class="about-btn">
+                <button class="btn">Send The Mail</button>
+            </div>
+
+
+        </div>
+        <div class="about-right">
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_tljjahng.json" background="transparent"
+                speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-left">
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_zhwxnxsj.json" background="transparent"
+                speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+        </div>
+        <div class="contact-right">
+            <h2>Get in Touch</h2>
+            <form action="#" class="form" id="contact-form">
+
+                <label for="name">Name:</label>
+                <input class="input" id="name" type="text" name="name" placeholder="Your Name" />
+
+                <label for="email">Email:</label>
+                <input class="input" type="email" name="email" id="email" placeholder="Email" />
+
+                <label for="message">Comment or Message:</label>
+                <textarea class="textarea" id="message" name="message" cols="10" rows="5"
+                    placeholder="Write your message..."></textarea>
+
+                <input class="submit" type="submit" />
+
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
